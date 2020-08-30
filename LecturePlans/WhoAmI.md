@@ -8,9 +8,9 @@
 
 ## Working for Wolfram Research Inc.
 
-- I am a former Kernel Developer of Mathematica -- I worked Wolfram Research, Inc. (WRI) from 2001 to 2008.
+- I am a former Kernel Developer of Mathematica -- I worked at Wolfram Research, Inc. (WRI) from 2001 to 2008.
 - At WRI I was developing mostly numerical algorithms.
-  - I designed, implemented, and extensively documented the new [`NIntegrate`](https://reference.wolfram.com/language/ref/NIntegrate.html)
+  - I designed, implemented, and extensively documented the new [`NIntegrate`](https://reference.wolfram.com/language/ref/NIntegrate.html).
 
 ## Senior Data Scientist
 
@@ -30,7 +30,9 @@
 - I have produced 
   [multiple R-packages](https://github.com/antononcube/R-packages) 
   at this point in order to facilitate different Machine Learning and Data Science workflows.
- 
+
+  - See ["How to simplify Machine learning workflows specifications - useR! 2020 Conference"](https://www.youtube.com/watch?v=QqH6eha73xk)
+  
 - I am very interested in comparison of different programming languages and systems.
   See [MathematicaVsR](https://github.com/antononcube/MathematicaVsR).
   
@@ -44,3 +46,5 @@
 - [WordPress blog](https://mathematicaforprediction.wordpress.com)
 
 - [LinkedIn profile](https://www.linkedin.com/in/anton-antonov-89a8797)
+
+- ["How to be a data scientist impostor?" book](https://github.com/antononcube/HowToBeADataScientistImpostor-book)
