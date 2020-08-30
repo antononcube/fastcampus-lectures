@@ -1,4 +1,4 @@
-# Recommendation systems workflows
+# Recommendation systems workflows lectures
 
 ## In brief
 
