@@ -51,3 +51,31 @@ The R projects notebooks can be found in this repository.
 Here is a diagram for the QR workflows:
 
 ![QR-workflows](https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/MarkdownDocuments/Diagrams/A-monad-for-Quantile-Regression-workflows/Quantile-regression-workflow-extended.jpg)
+
+---
+
+This call of 
+[`ToQuantileRegressionWorkflowCode`](https://github.com/antononcube/Raku-DSL-English-QuantileRegressionWorkflows)
+over a sequence of natural commands:
+
+```r
+ToQuantileRegressionWorkflowCode(
+    "create from dfTemperatureData;
+     compute quantile regression with 16 knots and probability 0.5;
+     show date list plot with date origin 1900-01-01;
+     show absolute errors plot;
+     echo text anomalies finding follows;
+     find anomalies by the threshold 5;
+     take pipeline value;", "R-QRMon")
+```
+generates this R code:
+
+```r
+QRMonUnit( data = dfTemperatureData) %>%
+QRMonQuantileRegression(df = 16, probabilities = c(0.5)) %>%
+QRMonPlot( datePlotQ = TRUE, dateOrigin = '1900-01-01') %>%
+QRMonErrorsPlot( relativeErrorsQ = FALSE) %>%
+QRMonEcho( "anomalies finding follows" ) %>%
+QRMonFindAnomaliesByResiduals( threshold = 5) %>%
+QRMonTakeValue
+```   
