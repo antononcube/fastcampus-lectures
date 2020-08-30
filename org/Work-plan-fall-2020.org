@@ -1,0 +1,64 @@
+#+TITLE: Work plan for fastcampus.co.kr fall 2020
+#+AUTHOR: Anton Antonov
+#+TODO: TODO ONGOING MAYBE | DONE CANCELED 
+#+OPTIONS: toc:1 num:0
+
+* TODO Plan the work [33%] [1/3] 
+DEADLINE: <2020-09-05 Sat>
+- [X] Make a GitHub repository
+- [ ] Finalize the lecture contents
+- [ ] Further details
+* TODO Introduction video (Who am I?)
+DEADLINE: <2020-09-15 Tue>
+- [ ] Outline
+- [ ] Mind-map
+- [ ] References
+- [ ] Transcript
+* TODO Recommendation systems lectures [%] [/]
+DEADLINE: <2020-10-11 Sun>
+- Consider making 4 videos, each ~20 min
+** TODO Preliminary work [33%] [1/3]
+- [X] Plan for programming language independent workflows
+- [-] General plan
+  - [ ] What data to use?
+  - [ ] What recommenders to discuss?
+    - Information retrieval based
+    - Graph based collaborative filtering
+    - Dynamic ranking
+  - [X] Which recommender to accentuate upon?
+    - Information retrieval based
+- [ ] Plans for each lecture
+** TODO Lectures [0%] [0/4]
+1. [ ] Introduction to Recommendation Systems
+2. [ ] Most common recommendations workflows
+3. [ ] Using recommenders as classifiers or for anomaly detection
+4. [ ] Advanced recommendation systems topics
+* TODO Quantile Regression lectures
+DEADLINE: <2020-10-31 Sat>
+- Consider making 4 videos, each ~20 min
+** TODO Preliminary work [33%] [1/3]
+- [X] Plan for programming language independent workflows
+- [-] General plan
+  - [X] What data to use?
+  - [ ] What recommenders to discuss?
+  - [ ] Which recommender to accentuate upon?
+- [ ] Plans for each lecture
+** TODO Lectures
+1. [ ] Introduction to Quantile Regression
+2. [ ] Basic QR applications
+3. [ ] Outliers, anomalies, and structural breaks
+4. [ ] Additional/advanced applications
+* TODO Code practice lectures [%] [/] 
+- Eight lectures "code-practice" lectures, each is ~15 min
+** MAYBE Data wrangling lectures
+** TODO Common time series problems with Quantile Regression
+** TODO Programming anomaly detection algorithms
+- [ ] Anomaly detection for time series
+- [ ] Anomaly detection for multi-dimensional points
+** MAYBE Classifiers with H2O
+** MAYBE Neural networks
+* TODO Futuristic ideas in Machine Learning lecture
+- One lecture ~40 min.
+- [ ] Applications to "important problems"
+- [ ] Strong vs weak AI
+- [ ] Conversational agents: simple and complicated
