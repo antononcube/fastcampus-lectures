@@ -50,15 +50,25 @@ DEADLINE: <2020-10-31 Sat>
 4. [ ] Additional/advanced applications
 * TODO Code practice lectures [0%] [0/12] 
 - Eight lectures "code-practice" lectures, each is ~15 min
-** TODO Deriving document-term marices
+** TODO Deriving document-term matrices
 - For text collections
+  - (Re-)introduce LSA and LSI
 - For transactions data
 - For time series data
 ** TODO Recommender making for transactions data
 ** TODO Recommender making for the comparison of two sets of documents
+- Repeat the place of recommenders into the "regression big picture".
+- Comparison of RStudio::conf abstracts with Wolfram Technology Conference abstracts.
+- Graphs from the matrices.
 ** TODO Common time series problems with Quantile Regression
-** TODO Ingestion and data analysis of energy consumption data 
+- Different real life examples.
+** TODO Ingestion and data analysis of energy consumption data
+- Using data from https://openei.org
 ** TODO Application of QR analysis to energy consumption data
+- Conditional distributions
+- Simulations of variables
+  - Per variable
+  - For variables combinations
 ** TODO Programming anomaly detection algorithms, Part 1
 - Anomaly detection for time series
 - Using outlier detection of error residuals
