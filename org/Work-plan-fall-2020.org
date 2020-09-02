@@ -48,13 +48,30 @@ DEADLINE: <2020-10-31 Sat>
 2. [ ] Basic QR applications
 3. [ ] Outliers, anomalies, and structural breaks
 4. [ ] Additional/advanced applications
-* TODO Code practice lectures [%] [/] 
+* TODO Code practice lectures [0%] [0/12] 
 - Eight lectures "code-practice" lectures, each is ~15 min
-** MAYBE Data wrangling lectures
+** TODO Deriving document-term marices
+- For text collections
+- For transactions data
+- For time series data
+** TODO Recommender making for transactions data
+** TODO Recommender making for the comparison of two sets of documents
 ** TODO Common time series problems with Quantile Regression
-** TODO Programming anomaly detection algorithms
-- [ ] Anomaly detection for time series
+** TODO Ingestion and data analysis of energy consumption data 
+** TODO Application of QR analysis to energy consumption data
+** TODO Programming anomaly detection algorithms, Part 1
+- Anomaly detection for time series
+- Using outlier detection of error residuals
+- Using outlier detection by regression quantiles
+** TODO Programming anomaly detection algorithms, Part 2
+- Anomaly detection success measures
+- Making tests for anomaly detection
+- (Interactive) compounded measures
+** MAYBE Programming anomaly detection algorithms, Part 3
 - [ ] Anomaly detection for multi-dimensional points
+- [ ] Anomaly detection success measures
+** MAYBE Linear regression and ROC
+** MAYBE Data wrangling lectures
 ** MAYBE Classifiers with H2O
 ** MAYBE Neural networks
 * TODO Futuristic ideas in Machine Learning lecture
