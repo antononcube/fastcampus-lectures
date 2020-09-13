@@ -115,6 +115,19 @@ Each description answers the questions: Why? What? How?
 
 - Model based decompositions
 
+- Comparison with other statistical methods.
+
+  - Classic time series analysis
+  
+  - Linear regression
+  
+## Data cleaning with QR
+
+- Example, real life data sets.
+
+- The general approach
+
+- On experimentation and tuning parameters.
 
 ## Anomaly detection with QR
 
@@ -140,7 +153,12 @@ Each description answers the questions: Why? What? How?
 
 - Logistics what-if scenarios: simulations with QR
 
+## Overview and conclusion
 
+- Breakdown of tasks and algorithms
 
+- Further readings and studies
 
-  
+- How it is done in other programming languages?
+
+- What to do next?
