@@ -1,4 +1,4 @@
-# Quantile Regression movies
+# Quantile Regression movies abstracts
 
 This document has short descriptions of the movies of the (proposed) Quantile Regression (QR) lectures.
 Each movie is planned to be ~ 20 minutes. 
@@ -10,7 +10,7 @@ Each description answers the questions: Why? What? How?
 
 - Why should you listen to me?
  
-   - Shot biography:
+   - Short biography:
    
      - Anton Antonov, Senior Research Scientist at Accendo Data, LLC    
    
@@ -23,8 +23,11 @@ Each description answers the questions: Why? What? How?
 - What I have done in the QR field?
 
   - I created a few packages for doing QR in Wolfram Language (WL); also a package in R.
-  The WL / Mathematica package is cited in Wikipedia.
-  Here is a related Wolfram Function Repository (WFR) implementation: 
+ 
+    - The WL / Mathematica package is cited in
+   [Wikipedia's dedicated QR page](https://en.wikipedia.org/wiki/Quantile_regression#Implementations).
+   
+     - Here is a related Wolfram Function Repository (WFR) implementation: 
   [`QuantileRegression`](https://resources.wolframcloud.com/FunctionRepository/resources/QuantileRegression).
   
   - See the YouTube videos by me on QR:
