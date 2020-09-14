@@ -15,22 +15,90 @@ The QR packages used in the course are `quantreg` and `QRMon`.
 
 **1.** Install `devtools` (if you have not already.)
 
+```{r, eval=FALSE}
+install.packages("devtools")
+```
+
+
 **2.** Install `quantreg`:
 
-```{r}
+```{r, eval=FALSE}
 install.packages("quantreg")
 ```
 
 **3.** Install `QRMon-R`:
 
-```{r}
+```{r, eval=FALSE}
 #install.packages("devtools")
 devtools::install_github(repo = "antononcube/QRMon-R" )
 ```
 
-# Verifications
+**4.** Install the data package [`MathematicaVsRData`](https://github.com/antononcube/R-packages/tree/master/MathematicaVsRData):
 
-```{r}
-vignette("q")
+```{r, eval=FALSE}
+devtools::install_github(repo = "antononcube/R-packages", subdir = "MathematicaVsRData" )
 ```
 
+# Verifications
+
+## `quantreg`
+
+```{r}
+library(quantreg)
+```
+
+
+```{r}
+data(engel)
+fit1 <- rq(foodexp ~ income, tau = .5, data = engel)
+```
+
+```{r}
+summary(fit1)
+```
+
+## `QRMon`
+
+```{r}
+library(magrittr)
+library(QRMon)
+```
+
+The package `QRMon` has its own data; here we use `dfTemperatureData`:
+
+```{r}
+res <- 
+  QRMonUnit( dfTemperatureData ) %>% 
+  QRMonQuantileRegression( df = 12 ) %>% 
+  QRMonPlot(datePlotQ = T, dateOrigin = "1900-01-01")
+```
+
+# Vignettes
+
+## `quantreg`
+
+Here is how to get the vignette for `quantreg` written by package's author [Roger Koenker](https://en.wikipedia.org/wiki/Roger_Koenker):
+
+```{r, eval=FALSE}
+vignette("rq", package= "quantreg")
+```
+
+Alternatively:
+
+- Read its online version: 
+["Censored Quantile Regression Redux"](https://cran.r-project.org/web/packages/quantreg/vignettes/crq.pdf).
+
+- Read another version that might be of interest:
+["Censored Quantile Regression Redux"](https://cran.r-project.org/web/packages/quantreg/vignettes/crq.pdf).
+
+
+## `QRMon`
+
+Here is how to the vignette for `QRMon`:
+
+```{r}
+vignette("rq", package= "QRMon")
+```
+
+Or read its online version:
+["Rapid making of Quantile Regression workflows"](https://htmlpreview.github.io/?https://github.com/antononcube/QRMon-R/blob/master/notebooks/rapid-making-of-qr-workflows.html).
