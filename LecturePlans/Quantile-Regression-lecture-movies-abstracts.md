@@ -75,7 +75,7 @@ Each description answers the questions: Why? What? How?
  
   - Simple QR workflows.
   
-  - Finding conditional propabilities.
+  - Finding conditional probabilities.
  
   - Finding outliers.
   
@@ -83,7 +83,7 @@ Each description answers the questions: Why? What? How?
   
 - Why?
 
-  - Of course it is good idea to start with the basics: 
+  - Of course, it is good idea to start with the basics: 
   
      - How to make basic, fundamental QR computations?
      
@@ -103,7 +103,7 @@ Each description answers the questions: Why? What? How?
 
 - Problem formulation: (1) general, colloquial description, and (2) rigorous description.
 
-- Chosing different datasets.
+- Choosing different datasets.
 
 - Application to business resources planning.
 
