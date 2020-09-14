@@ -1,0 +1,95 @@
+---
+title: "Introduction to Quantile Regression"
+author: Anton Antonov
+date: 2020-09-14
+output: html_notebook
+---
+
+```{r, setup}
+library(magrittr)
+library(MathematicaVsRData)
+library(quantreg)
+library(QRMon)
+```
+
+# Introduction
+
+In this notebook we are going to introduce Quantile Regression (QR) through questions and answers.
+
+Each of the questions listed below is answered in separate section in this notebook.
+
+*(This is non-computational notebook, but the code examples are expected to run.)*
+
+# Basic questions 
+
+1. What is the mission statement of the course?
+
+2. Why use QR? 
+
+   - What are the main advantages of using QR?
+   
+   - Is it just for better visualization of the signals?
+
+3. How does QR compare to other related methods?
+
+4. Can QR be used for forecast?
+
+5. Can we use Neural Networks instead of QR?
+
+6. Are there implementations in other popular "data science" programming languages?
+
+7. Where can I find the theoretical background for QR computations?
+
+## Addtional questions
+
+I have accumulated a list of questions and comments from my Quantile Regression (QR) presentations. 
+
+1. Can apply QR without the package QRMon?
+
+   - Yes, see the Wolfram Functions Repository item "QuantileRegression".
+
+   - Related, why are you using QRMon?
+
+2. Are you computing QR using a moving window?
+
+   - Related, how QR compares to Local regression?
+
+3. What do you do when the QR fitted curves (regression quantiles) intersect? 
+
+4. How does QR look like over 3 points?
+
+5. What approximation to pick for reconstructing the conditional CDF's?
+
+
+9. What is the point of using those anomaly detection methods -- a human can easily do it?
+
+
+
+# Mission statement
+
+The goals of this (workshop) lectures are to:
+
+- Introduce the theoretical background of QR,
+
+- Demonstrate QR's practical (and superior) abilities to deal with "real life" time series data
+
+- Teach how to rapidly create QR workflows using R
+
+
+# Why use QR?
+
+# Can QR be used for forecast?
+
+
+# How does QR look like over 3 points?
+
+```{r}
+res <- 
+  QRMonUnit( runif(n = 4, min = 1, max = 10) ) %>% 
+  QRMonQuantileRegression( df = 2, probabilities = 0.5, degree = 2 ) %>% 
+  QRMonPlot
+```
+
+# References
+
+TBD...
