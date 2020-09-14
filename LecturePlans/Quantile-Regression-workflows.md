@@ -10,7 +10,7 @@ The R projects notebooks can be found in this repository.
 
 ## The lectures
 
-1. Introducing QR through answering different questions.
+1. Introducing QR through answering different questions
    Here is the list:
 
    - Can we apply Quantile Regression (QR) without the package QRMon?
