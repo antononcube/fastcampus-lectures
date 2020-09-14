@@ -124,6 +124,8 @@ Each description answers the questions: Why? What? How?
   
   - Linear regression
   
+  - Neural networks
+  
 ## Data cleaning with QR
 
 - Example, real life data sets.
