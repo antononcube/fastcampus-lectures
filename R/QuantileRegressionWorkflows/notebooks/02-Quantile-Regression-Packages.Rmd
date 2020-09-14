@@ -1,0 +1,36 @@
+---
+title: "Quantile Regression packages"
+author: Anton Antonov
+date: 2020-09-14
+output: html_notebook
+---
+
+# Introduction
+
+In this notebook we show how to install the R packages used in this QR course and how to verify they are working.
+
+The QR packages used in the course are `quantreg` and `QRMon`.
+
+# Packages installation
+
+**1.** Install `devtools` (if you have not already.)
+
+**2.** Install `quantreg`:
+
+```{r}
+install.packages("quantreg")
+```
+
+**3.** Install `QRMon-R`:
+
+```{r}
+#install.packages("devtools")
+devtools::install_github(repo = "antononcube/QRMon-R" )
+```
+
+# Verifications
+
+```{r}
+vignette("q")
+```
+
