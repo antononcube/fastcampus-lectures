@@ -1,4 +1,4 @@
-# Anomalies detection movie abstracts
+# Anomaly detection movie abstracts
 
 ## About the lecturer
 
