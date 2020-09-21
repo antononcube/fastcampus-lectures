@@ -6,21 +6,19 @@ Each movie is planned to be ~ 20 minutes.
 Each description answers the questions: Why? What? How? 
 
 
-## Who am I?
+## About the lecturer
 
-- Why should you listen to me?
- 
-   - Short biography:
+- Short biography:
    
-     - Anton Antonov, Senior Research Scientist at Accendo Data, LLC    
+  - Anton Antonov, Senior Research Scientist at Accendo Data, LLC    
    
-     - Anton is an applied mathematician (PhD) with 28+ years of experience in algorithm development, scientific computing, mathematical modeling, operations research, natural language processing, machine learning, data science, and data mining.   
+  - Anton is an applied mathematician (PhD) with 28+ years of experience in algorithm development, scientific computing, mathematical modeling, operations research, natural language processing, machine learning, data science, and data mining.   
      
-     - In the last twelve years, he focused on developing machine learning algorithms and workflows for different industries (music, movies, points of interests, recruiting, healthcare.) Currently, he is working on operations research and data science applications to manufacturing and healthcare.   
+  - In the last twelve years, he focused on developing machine learning algorithms and workflows for different industries (music, movies, points of interests, recruiting, healthcare.) Currently, he is working on operations research and data science applications to manufacturing and healthcare.   
      
-     - Anton is a former kernel developer of Mathematica.
+  - Anton is a former kernel developer of Mathematica.
 
-- What I have done in the QR field?
+- Author's work in the QR field?
 
   - I created a few packages for doing QR in Wolfram Language (WL); also a package in R.
  
@@ -32,7 +30,7 @@ Each description answers the questions: Why? What? How?
   
   - See the YouTube videos by me on QR:
   
-- How my work can on QR be found?
+- How to find author's work on QR?
 
   - [GitHub repository](https://github.com/antononcube)
   
