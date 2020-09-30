@@ -2,7 +2,7 @@
 
 ## In brief
 
-The Quantile Regression (QR) lectures outlined below are *to be* recorded for 
+The Recommendation Systems (RS) lectures outlined below are *to be* recorded for 
 [fastcampus.co.kr](https://fastcampus.co.kr) 
 in August-November 2020.
 
